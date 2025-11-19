@@ -7,7 +7,9 @@ const findPage = (id) => {
 }
 
 router.get("/", (request, response) => {
-    response.render("index.njk")
+    response.render("index.njk", {
+        storyData
+    })
 })
 
 router.get("/:id", (request, response) => {
