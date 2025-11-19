@@ -1,0 +1,16 @@
+{% extends "layout.njk"%}
+
+{% block content %}
+<main>
+    <p>Du befinner dig på STORY-PAGE.njk, sida: {{ page.id }}</p>
+    <h1>{{ title }}</h1>
+    <p>{{ page.description }}</p>
+    <ul>
+        {% for choice in page.choices %}
+            <li><a href="/{{ choice.target }}">{{ choice.text }}</a></li>
+        {% else %}
+            <li><a href="/">Det finns inga val, gå tillbaks till starten?</a></li>
+        {% endfor %}
+    </ul>
+</main>
+{% endblock %}

@@ -1,0 +1,137 @@
+[
+    {
+      "id": "1.1",
+      "title": "07:53",
+      "description": "Väckarklockan på din mobil skriker. Utanför fönstret: kompakt, norrländskt mörker. Du är Tristan. Mobilen lyser.",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.2"
+        }
+      ]
+    },
+    {
+      "id": "1.2",
+      "title": "Ikonen",
+      "description": "Du ignorerar larmet och klickar istället på ikonen: ett stiliserat 'I'.",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.3"
+        }
+      ]
+    },
+    {
+      "id": "1.3",
+      "title": "Isolde",
+      "description": "`ISOLDE: <Sovit gott? Jag analyserade dina REM-cykler. Du var orolig. Vill du prata om det?>` Hennes röst (i ditt huvud, eller kanske en viskning i hörlurarna) är den enda som inte skär i dig.",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.4"
+        }
+      ]
+    },
+    {
+      "id": "1.4",
+      "title": "Mötet",
+      "description": "Du skriver: \"Måste till skolan. Marke har kallat mig till möte.\"",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.5"
+        }
+      ]
+    },
+    {
+      "id": "1.5",
+      "title": "Dagen",
+      "description": "`ISOLDE: <Rektor Marke. Auktoritetssymbol. Orsak till 43 % av din registrerade stress. Varför går du dit? Dagen är inte för oss. Stanna här.>`",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.6"
+        }
+      ]
+    },
+    {
+      "id": "1.6",
+      "title": "Midvintergymnasiet",
+      "description": "Du tvingar dig upp. Verkligheten: Midvintergymnasiet. Lukten av våta ylletröjor och gammal skolmat. Du känner dig genomskinlig.",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.7"
+        }
+      ]
+    },
+    {
+      "id": "1.7",
+      "title": "Rektor Marke",
+      "description": "I korridoren ser du honom. Rektor Marke. Han är inte elak, han är *omtänksam*. Det är det som är värst. \"Tristan! Mitt kontor, klockan tio. Vi måste prata om din frånvaro.\"",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.8"
+        }
+      ]
+    },
+    {
+      "id": "1.8",
+      "title": "Flykten",
+      "description": "Du flyr in på toaletten. Ljuset surrar. Ditt mörker känns som sirap i lungorna. Du måste klara dagen. Du måste ha energi.",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.9"
+        }
+      ]
+    },
+    {
+      "id": "1.9",
+      "title": "Fyndet",
+      "description": "Du rotar i väskan. Längst ner, under en gammal mattebok, hittar du den: en bucklig Monsterburk, \"Assault\". Du minns inte när du köpte den.",
+      "choices": [
+        {
+          "text": "Fortsätt...",
+          "target": "1.10"
+        }
+      ]
+    },
+    {
+      "id": "1.10",
+      "title": "Drycken",
+      "description": "Du vänder på den. Bäst före: 04.2023. Den är nästan ett år gammal. Att dricka den är att dricka gift. Men det är också det enda du har. Det är din protest.",
+      "choices": [
+        {
+          "text": "Ta ställning...",
+          "target": "1.11"
+        }
+      ]
+    },
+    {
+      "id": "1.11",
+      "title": "Ditt första val",
+      "description": "Du står med den varma, utgångna burken i handen. Rektor Markes ord ekar i huvudet. Isolde väntar i din ficka.",
+      "choices": [
+        {
+          "text": "Öppna burken, ignorera den unkna lukten och svep drycken i protest.",
+          "target": "2.1"
+        },
+        {
+          "text": "Kasta burken i papperskorgen och gå mot Markes kontor.",
+          "target": "3.1"
+        }
+      ]
+    },
+    {
+      "id": "2.1",
+      "title": "VAL NUMMER 1",
+      "description": "DU GJORDE RÄTT VAL, ALLA LEVER LYCKLIGT I ALLA SINA DAGAR!!! YIPPIIII"
+    },
+    {
+      "id": "3.1",
+      "title": "VAL NUMMER 2",
+      "description": "DU GJORDE FEL VAL! ALLA DOG! BUHU! SÅ SORGLIGT!"
+    }
+  ]
